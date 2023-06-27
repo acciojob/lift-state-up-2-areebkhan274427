@@ -4,7 +4,7 @@ function Child({changeText}) {
   return (
     <div className='child'>
         <h2>Child Component</h2>
-        <input onChange={(e)=>changeText(e.target.value)}/>
+        <input type='text' onChange={(e)=>changeText(e.target.value)}/>
     </div>
   )
 }
